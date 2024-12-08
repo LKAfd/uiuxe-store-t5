@@ -1,8 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import postImage from "../../public/images/unsplash.jpg";
-// import postImage from "../../public/images/unsplash-1.jpg";
-// import postImage from "../../public/images/unsplash-2.jpg";
 
 const FeaturedPosts = () => {
   const posts = [
@@ -44,7 +41,7 @@ const FeaturedPosts = () => {
             href={post.link}
             className="bg-white shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <img
+            <Image
               src={post.image}
               alt={post.title}
               className="w-[348px] h-[300px] object-cover"
