@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const ProductGrid = () => {
   const products = [
     {
@@ -71,7 +73,7 @@ const ProductGrid = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 container px-8 mx-auto">
       {products.map((product) => (
         <div key={product.id} className="bg-white shadow-md rounded p-4">
-          <img
+          <Image
             src={product.image}
             alt={product.name}
             className="w-[239px] h-[427px] object-cover rounded items-center"

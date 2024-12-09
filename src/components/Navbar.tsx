@@ -16,9 +16,7 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faAccessibleIcon,
 } from "@fortawesome/free-brands-svg-icons";
-import { FaAddressCard } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
