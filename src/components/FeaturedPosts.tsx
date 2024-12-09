@@ -41,11 +41,16 @@ const FeaturedPosts = () => {
             href={post.link}
             className="bg-white shadow-md rounded overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <Image
-              src={post.image}
-              alt={post.title}
-              className="w-[348px] h-[300px] object-cover"
-            />
+            {/* Fixed Image component */}
+            <div className="relative w-full h-[300px]">
+              <Image
+                src={post.image}
+                alt={post.title}
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t"
+              />
+            </div>
             <div className="p-4">
               <h3 className="font-semibold text-lg mb-2">{post.title}</h3>
               <p className="text-gray-600 text-sm">{post.description}</p>

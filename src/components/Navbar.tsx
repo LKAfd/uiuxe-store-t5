@@ -9,13 +9,16 @@ import {
   faSearch,
   faShoppingCart,
   faHeart,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faYoutube,
   faFacebook,
   faTwitter,
+  faAccessibleIcon,
 } from "@fortawesome/free-brands-svg-icons";
+import { FaAddressCard } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -135,6 +138,7 @@ const Navbar = () => {
 
           {/* Utility Icons */}
           <div className="flex items-center space-x-4 text-blue-600">
+            <FontAwesomeIcon icon={faUser} />
             <Link href="/login" className="hover:text-blue-800">
               Login / Register
             </Link>
