@@ -3,18 +3,18 @@ import Image from "next/image";
 
 const ProductListPage = () => {
   const productImages = [
-    "/Images/product-cover-1.jpg",
-    "/Images/product-cover-2.jpg",
-    "/Images/product-cover-3.jpg",
-    "/Images/product-cover-4.jpg",
-    "/Images/product-cover-5.jpg",
-    "/Images/product-cover-6.jpg",
-    "/Images/product-cover-7.jpg",
-    "/Images/product-cover-8.jpg",
-    "/Images/product-cover-9.jpg",
-    "/Images/product-cover-10.jpg",
-    "/Images/product-cover-11.jpg",
-    "/Images/product-cover-12.jpg",
+    "/images/product-cover-1.jpg",
+    "/images/product-cover-2.jpg",
+    "/images/product-cover-3.jpg",
+    "/images/product-cover-4.jpg",
+    "/images/product-cover-5.jpg",
+    "/images/product-cover-6.jpg",
+    "/images/product-cover-7.jpg",
+    "/images/product-cover-8.jpg",
+    "/images/product-cover-9.jpg",
+    "/images/product-cover-10.jpg",
+    "/images/product-cover-11.jpg",
+    "/images/product-cover-12.jpg",
   ];
 
   return (

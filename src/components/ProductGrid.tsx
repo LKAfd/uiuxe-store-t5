@@ -76,7 +76,9 @@ const ProductGrid = () => {
           <Image
             src={product.image}
             alt={product.name}
-            className="w-[239px] h-[427px] object-cover rounded items-center"
+            width={239}
+            height={427}
+            className="object-cover rounded items-center"
           />
           <h3 className="mt-4 text-center font-semibold">{product.name}</h3>
           <p className="text-gray-600 text-center font-semibold text-sm">
