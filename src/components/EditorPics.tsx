@@ -7,7 +7,7 @@ import kidImage from "../../public/assets/filter-2.png";
 
 const EditorsPick = () => {
   return (
-    <div className="bg-white py-10 px-48">
+    <div className="bg-white py-10 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48">
       <h2 className="text-center text-xl font-bold mb-2">EDITORS PICK</h2>
       <p className="text-center text-gray-500 mb-8">
         Problems trying to resolve the conflict between

@@ -2,7 +2,7 @@ import HeroSection from "../components/HeroSection";
 import ProductGrid from "../components/ProductGrid";
 import FeaturedPosts from "../components/FeaturedPosts";
 import EditorsPick from "../components/EditorPics";
-import Banner from "@/components/Banner";
+import VitaClassic from "@/components/VitaClassic";
 export default function Home() {
   return (
     <div>
@@ -21,7 +21,7 @@ export default function Home() {
         <ProductGrid />
       </section>
       <section className="py-12">
-        <Banner />
+        <VitaClassic />
       </section>
       <section className="py-12">
         <FeaturedPosts />

@@ -4,7 +4,7 @@ import heroImage from "../../public/assets/hero.jpg";
 
 const Herosection = () => {
   return (
-    <div className="relative w-full h-[716px] bg-blue-500 text-white">
+    <div className="relative w-full h-[300px] bg-blue-500 text-white sm:h-[400px] md:h-[500px] lg:h-[716px]">
       {/* Background Image */}
       <Image
         src={heroImage} // Corrected image path (ensure the image is inside the 'public' folder)
@@ -15,7 +15,7 @@ const Herosection = () => {
       />
 
       <div className="absolute inset-0 flex flex-col justify-center items-center sm:items-start p-8 sm:p-12">
-        <div className="md:w-1/2 text-black text-center md:text-left md:ml-10">
+        <div className="md:w-1/2 text-white text-center md:text-left md:ml-10">
           <p className="uppercase text-sm tracking-widest mb-7 text-white">
             Summer 2020
           </p>

@@ -24,7 +24,7 @@ const AboutPage = () => {
         </div>
         <div className="lg:w-1/2 flex justify-center">
           <Image
-            src="/Images/about-hero.jpg"
+            src="/images/about-hero.jpg"
             alt="Shopping woman"
             width={1440}
             height={639}
@@ -77,7 +77,7 @@ const AboutPage = () => {
         <div className="flex justify-center">
           <div className="relative">
             <Image
-              src="/Images/video-card.jpg"
+              src="/images/video-card.jpg"
               alt="Scenic View"
               width={800}
               height={450}
@@ -99,7 +99,7 @@ const AboutPage = () => {
           {["team-user-1", "team-user-2", "team-user-3"].map((user, index) => (
             <div key={index} className="text-center">
               <Image
-                src={`/Images/${user}.jpg`}
+                src={`/images/${user}.jpg`}
                 alt={`${user}`}
                 width={316}
                 height={231}
@@ -163,7 +163,7 @@ const AboutPage = () => {
         </div>
         <div className="lg:w-1/3 flex justify-center">
           <Image
-            src="/Images/company-hero.jpg"
+            src="/images/company-hero.jpg"
             alt="company-hero"
             width={590}
             height={640}

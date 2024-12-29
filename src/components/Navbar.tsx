@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <header className="w-full">
       {/* Top Bar */}
-      <div className="bg-[#252b42] text-white py-2 text-sm">
+      <div className="bg-[#252b42] text-white py-2 text-sm sm:py-3 sm:text-base md:py-4 md:text-lg lg:py-5 lg:text-xl">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Contact Info */}
           <div className="flex items-center space-x-4">
@@ -69,7 +69,7 @@ const Navbar = () => {
 
       {/* Main Navbar */}
       <nav className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center text-sm sm:py-3 sm:text-base md:py-4 md:text-lg lg:py-5 lg:text-xl">
           {/* Brand Logo */}
           <div className="text-2xl font-bold text-blue-900">
             <Link href="/">Bandage</Link>
